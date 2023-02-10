@@ -1,10 +1,10 @@
 <?php
 
 function conectar(){
-	$host="mysql669.umbler.com";
-	$bd = "transcr";
-	$user = "tcr";
-	$senha = "transcr45";
+	$host="linkHost";
+	$bd = "testeBd";
+	$user = "user10";
+	$senha = "password";
 
 	$con = new mysqli($host, $user, $senha, $bd);
 	return $con;
